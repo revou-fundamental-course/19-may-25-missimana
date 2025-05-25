@@ -1,0 +1,69 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu by imk</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- tampilan form kalkulator -->
+ 
+   <div id="header">
+                <h1> <b>KALKULATOR SUHU </b></h1>
+                <form action="/action_page.php" id="form1">
+               
+                
+            </div>
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+   
+      <img src="assets/img_suhu2.png" alt="suhu" class="suhu">
+    </div>
+
+    <!-- inputan suhu -->
+    
+<div class="container">
+      <label for="suhu"><b>Masukan suhu derajat Celcius (°C) ke kotak di bawah ini, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F)</b></label>
+      <input type="text" placeholder="" name="suhu" required>
+
+      <label for="fahrenheit"><b>Fahrenheit(°F)</b></label>
+      <input type="text" placeholder="" name="" required>
+
+<label for="kalkulasi"><b>Cara Kalkulasi</b></label>
+      <input type="text" placeholder="" name="" required>
+</div>
+      </form>
+    
+
+        <!-- tombol-tombol -->
+      <div id="button" align="center">
+                <button type="button" class="btn" id="button1">Konversi</button>
+                <button type="button" class="btn" id="button2">Reset</button>
+                 <button type="button" class="btn" id="button3">Reverse</button>
+            </div>
+      
+    
+   
+  
+
+           
+                       
+            <div id="formula">
+                <p id="title">Rumus</p>
+                <p id="howto">(0°C × 9/5) + 32 = 32.00°F</p>
+            </div>
+            <div id="error style="display: flex; justify-content: center; margin-top: 15px;"></div>
+        </form>
+        
+        <div id="credit" align="center">
+            Miniproject by <a href="https://github.com/revou-fundamental-course/19-may-25-missimana.git" target="_blank" rel="noopener noreferrer" >Missimana</a>
+        </div>
+   
+
+    <script src="js/script.js"></script>
+</body>
+</html>
