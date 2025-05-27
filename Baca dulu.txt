@@ -1,7 +1,22 @@
-Keterangn:
+#Keterangn:
 
 front1
 index1 for css2
 
 front2
 index11 for css1
+
+#Nge push ke git hub dari terminal:
+
+git status
+git add .
+git commit -m "namafile"
+git push origin HEAD:main
+
+
+#di js
+try{
+    //kode yg menyebabkan error
+} catch (error) {
+    //tangani error
+}

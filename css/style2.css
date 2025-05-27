@@ -251,3 +251,15 @@ span.psw {
 .default:hover {
     background: #ddd;
 }
+
+
+/* note: */
+
+
+/* try {
+    //kode yg menyebabkan error
+}
+
+catch (error) {
+    //tangani error
+} */
