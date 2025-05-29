@@ -11,4 +11,4 @@ Proyek ini merupakan mini aplikasi web berbasis HTML, CSS, dan JavaScript murni 
 
 Website Temperature Calculator dapat di akses di https://revou-fundamental-course.github.io/19-may-25-missimana/
 
-Referensi pembuatan : https://github.com/revou-fundamental-course/19-may-25-missimana/tree/main
+Referensi pembuatan : https://github.com/revou-fundamental-course/19-may-25-missimana
