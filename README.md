@@ -1,5 +1,7 @@
+<h1>Tampilan web Temperature Calculator</h1>
 
-![image](https://github.com/user-attachments/assets/4e34a119-0434-4058-bc40-7a315ea58dde)
+![image](https://github.com/user-attachments/assets/102e0090-1750-443b-aeeb-39897b6c8c7a)
+
 
 
 # Temperature Calculator
