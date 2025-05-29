@@ -8,3 +8,5 @@ Proyek ini merupakan mini aplikasi web berbasis HTML, CSS, dan JavaScript murni 
 - HTML5 (Semantic Tags: header, main, footer, section)
 - CSS3 (Layout responsif, desain modern)
 - JavaScript (DOM Manipulation & Logic)
+
+Website Temperature Calculator dapat di akses di https://github.com/revou-fundamental-course/19-may-25-missimana
