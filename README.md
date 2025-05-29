@@ -1,4 +1,4 @@
-Berikut adalah isi README.md dari repo revou-fundamental-course/19-may-25-missimana:
+
 
 # Temperature Calculator
 
