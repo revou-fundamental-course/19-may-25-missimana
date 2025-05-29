@@ -1,4 +1,4 @@
-<h1>Tampilan web Temperature Calculator</h1>
+<h1>Tampilan Web Temperature Calculator</h1>
 
 ![image](https://github.com/user-attachments/assets/102e0090-1750-443b-aeeb-39897b6c8c7a)
 
