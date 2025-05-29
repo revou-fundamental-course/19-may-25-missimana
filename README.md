@@ -1,4 +1,6 @@
 
+![image](https://github.com/user-attachments/assets/4e34a119-0434-4058-bc40-7a315ea58dde)
+
 
 # Temperature Calculator
 
