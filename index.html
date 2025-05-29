@@ -4,7 +4,7 @@
 <head>
     <title>Mrs Imana's Temperature Calculator</title>
 
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -18,37 +18,75 @@
         <div class="imgcontainer">
             <img src="../assets/suhu256.png" alt="Calculator Suhu" class="calculator_suhu">
         </div>
-
         <div class="container">
-            <label for="uname"><b>Masukan suhu derajat Celcius (°C) ke kotak di bawah ini, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F)</b></label>
-            <input type="text" placeholder="Masukkan suhu" name="suhu" required>
+            <h2>Masukan suhu derajat Celcius (°C) ke kotak di bawah ini, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F)</h2>
+        </div>
+        <div class="container">
+            <label for="uname"><b>Celcius (°C)</b></label>
+            <input type="text" placeholder="Masukkan suhu" name="suhu" required/>
         </div>
 
-        <div class="container " style="background-color:#f1f1f1 ">
-            <button type="button" class="konversibtn ">Konversi</button>
+        <div class="container " style="background-color:#f5eeee ">
+            <button type="submit" class="konversibtn ">Konversi</button>
+
             <button type="button" class="resetbtn ">Reset</button>
             <button type="button" class="reversebtn ">Reverse</button>
         </div>
 
+        <!-- inputan suhu -->
+        <section>
+            <div class="container">
+
+                <label for="Fahrenheit"><b>Fahrenheit(°F)</b></label>
+                <input type="text" placeholder="Fahrenheit" name="Fahrenheit" required>
+                <br>
+                <label for="kalkulasi"><b>Cara kalkulasi</b></label>
+                <input type="text" placeholder="kalkulasi" name="kalkulasi" required>
+            </div>
+            <div class="container">
+                <div id="result"></div>
+                <div id="explanation"></div>
+
+                <div id="scienceNote">
+                    <h3>Penjelasan Ilmiah</h3>
+                    <p id="noteContent">
+                        Skala Celsius didasarkan pada titik beku air (0°C) dan titik didih air (100°C) pada tekanan 1 atm. Sementara itu, skala Fahrenheit menetapkan titik beku air pada 32°F dan titik didih pada 212°F.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- deskripsi konversi -->
         <div class="container">
+            <section>
+                <header>
+                    <h2>Cara Konversi Celcius (°C) ke Fahrenheit (°F)</h2>
+                </header>
 
-            <label for="Fahrenheit"><b>Fahrenheit(°F)</b></label>
-            <input type="text" placeholder="Fahrenheit" name="Fahrenheit" required>
+                <hr>
 
-            <label for="kalkulasi"><b>Cara kalkulasi</b></label>
-            <input type="text" placeholder="kalkulasi" name="kalkulasi" required>
+                <div>
+                    <p>Suhu <b>S</b> dalam derajat fahrenheit (°F) sama dengan suhu <b>S</b> dalam derajat Celcius (°C) kali 9/5 tambah 32 </p>
+                    <p class="rumus-content">S<sub>(°F)</sub> = (S<sub>(°C)</sub> x 9/5) + 32</p>
+                    <p>Atau</p>
+                    <p class="rumus-content">S<sub>(°F)</sub> = (S<sub>(°C)</sub> x 1.8) + 32</p>
+                </div>
+            </section>
+
         </div>
 
-
         <div class="container">
-
-            <!-- <span class=" ">Mrs Imana's <a href="# ">Mini project</a></span> -->
-            <div id="credit" align="center">
-                Miniproject by <a href="https://github.com/revou-fundamental-course/19-may-25-missimana.git" target="_blank" rel="noopener noreferrer">Missimana</a>
-            </div>
+            <footer>
+                <!-- <span class=" ">Mrs Imana's <a href="# ">Mini project</a></span> -->
+                <div id="credit" align="center">
+                    Miniproject by <a href="https://github.com/revou-fundamental-course/19-may-25-missimana.git" target="_blank" rel="noopener noreferrer">Missimana</a>
+                </div>
+            </footer>
         </div>
     </form>
-
+    <!-- javascript -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,11 +1,13 @@
 #Keterangn:
 
 front1
-index1 for css2
+index for css2
 
 front2
 index11 for css1
 
+font3
+indexK for css3
 #Nge push ke git hub dari terminal:
 
 git status
